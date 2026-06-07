@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Londres — morganpcts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a href="index.html" class="logo">morganpcts</a>
+      <nav class="nav-main">
+        <a href="index.html">Home</a>
+        <a href="works.html" class="is-active">Works</a>
+        <a href="about.html">About</a>
+        <a
+          href="https://www.instagram.com/morgan_pcts/?hl=fr"
+          class="nav-social"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+        >
+          <img src="assets/images/instagram.svg" alt="" width="18" height="18" />
+        </a>
+      </nav>
+    </header>
+
+    <section class="project-banner project-banner--londres">
+      <img src="assets/images/LONDRES/banniere.JPG" alt="Londres" />
+      <div class="project-banner__text">
+        <h1 class="project-banner__title">Londres</h1>
+      </div>
+    </section>
+
+    <section
+      class="gallery"
+      data-gallery
+      data-images='[
+        "assets/images/LONDRES/1.JPG",
+        "assets/images/LONDRES/2.JPG",
+        "assets/images/LONDRES/3.JPG",
+        "assets/images/LONDRES/4.JPG",
+        "assets/images/LONDRES/5.JPG",
+        "assets/images/LONDRES/6.JPG"
+      ]'
+    >
+      <div class="gallery__stage">
+        <button type="button" class="gallery__arrow" data-prev aria-label="Photo précédente">&lsaquo;</button>
+        <div class="gallery__main">
+          <img src="" alt="" />
+        </div>
+        <button type="button" class="gallery__arrow" data-next aria-label="Photo suivante">&rsaquo;</button>
+      </div>
+      <div class="gallery__thumbs"></div>
+    </section>
+
+    <nav class="project-nav">
+      <a href="animals.html">&lsaquo; Animals</a>
+      <a href="chantilly.html">Chantilly &rsaquo;</a>
+    </nav>
+
+    <script src="js/gallery.js"></script>
+  </body>
+</html>
